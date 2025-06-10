@@ -37,8 +37,8 @@ public class Principal {
         System.out.println(grafo);
 
         // VALORES DE ORIGEN Y DESTINO
-        String origen = "GIJÓN-2";
-        String destino = "AVILÉS-13";
+        String origen = "AVILÉS-15";
+        String destino = "GIJÓN-2";
 
         List<String> camino = grafo.Dijkstra(origen, destino);
         if (camino != null) {
